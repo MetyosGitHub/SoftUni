@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ix4eOqpJ/INgUAYAsH10/8pFGvTRQS/zlJ4ijGEgax6zU4VO4NZrfav0BpHylIV/oHgzJ8qmt6Tl9+yGYsJfzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DG\\Desktop\\UniTest\\SmartphoneShop\\SmartphoneShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

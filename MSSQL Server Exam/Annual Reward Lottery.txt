@@ -1,0 +1,29 @@
+CREATE PROCEDURE usp_AnnualRewardLottery(@TouristName VARCHAR(50))
+AS
+BEGIN
+DECLARE @siteCount INT;
+SET @siteCount = (SELECT
+COUNT(*)
+FROM Tourists AS t
+JOIN SitesTourists as st ON t.Id = st.TouristId
+JOIN Sites AS s ON st.SiteId = s.Id
+WHERE t.[Name]= @TouristName
+GROUP BY t.[Name])
+
+UPDATE Tourists
+SET Reward = 'Bronze badge'
+WHERE [Name] =@TouristName AND @siteCount>=25 
+
+UPDATE Tourists
+SET Reward = 'Silver badge'
+WHERE [Name] =@TouristName AND @siteCount>=50
+UPDATE Tourists
+SET Reward = 'Gold badge'
+WHERE [Name] =@TouristName AND @siteCount>=100 
+
+SELECT 
+[Name]
+,Reward
+FROM Tourists
+WHERE [Name] = @TouristName
+END

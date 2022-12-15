@@ -1,0 +1,15 @@
+SELECT 
+Province
+,Municipality
+,l.[Name]
+,
+COUNT(s.[Name]) AS CountOfSites
+
+
+
+
+FROM Locations AS l
+JOIN Sites as s ON l.Id=s.LocationId
+WHERE Province = 'Sofia'
+GROUP BY l.Municipality, l.Province, l.[Name]
+ORDER BY 4 DESC, 3 ASC

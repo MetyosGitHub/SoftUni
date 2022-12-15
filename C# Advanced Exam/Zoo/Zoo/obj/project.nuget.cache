@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mR7NZ5ifgSIpmOSnVia0zDcih6Kw+kge0RnTOxvKJ+07WK3zd0Gq4CVFZcgTYCgsOpA1PCw9syL3ZcCmRc6uiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DG\\Desktop\\Zoo\\Zoo\\Zoo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DG\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.exe
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.deps.json
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.runtimeconfig.json
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.runtimeconfig.dev.json
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.dll
+C:\Users\DG\Desktop\Test\bin\Debug\netcoreapp3.1\Formula1.pdb
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.csproj.AssemblyReference.cache
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.AssemblyInfoInputs.cache
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.AssemblyInfo.cs
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.csproj.CoreCompileInputs.cache
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.dll
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.pdb
+C:\Users\DG\Desktop\Test\obj\Debug\netcoreapp3.1\Formula1.genruntimeconfig.cache

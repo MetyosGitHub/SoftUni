@@ -1,0 +1,14 @@
+CREATE FUNCTION udf_GetTouristsCountOnATouristSite(@Site VARCHAR(100))
+RETURNS INT AS
+BEGIN
+ DECLARE @touristCount INT;
+ SET @touristCount =
+ (SELECT
+   COUNT(*)
+   FROM Tourists AS t
+   JOIN SitesTourists AS st On t.Id = st.TouristId
+   JOIN Sites AS s ON st.SiteId = s.Id
+   WHERE s.[Name] = @Site)
+
+ RETURN @touristCount;
+END

@@ -1,0 +1,10 @@
+SELECT
+t.[Name]
+,t.Age
+,t.PhoneNumber
+,t.Nationality
+,COALESCE(bp.[Name],'(no bonus prize)') AS Reward
+FROM Tourists AS t
+LEFT JOIN TouristsBonusPrizes AS tbp ON t.Id = tbp.TouristId
+LEFT JOIN BonusPrizes AS bp ON bp.Id = tbp.BonusPrizeId
+ORDER BY 1 ASC

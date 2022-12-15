@@ -1,0 +1,7 @@
+DELETE FROM TouristsBonusPrizes
+WHERE BonusPrizeId IN (
+SELECT Id
+FROM BonusPrizes
+WHERE [Name] = 'Sleeping Bag')
+DELETE FROM BonusPrizes
+WHERE [Name] = 'Sleeping Bag'
